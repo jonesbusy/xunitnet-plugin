@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite name="/home/jenkins/test2/bin/Debug/net8.0/test2.dll"
+              tests="3"
+              failures="1"
+              skipped="1"
+              errors="0"
+              time="1.100"
+              timestamp="2024-01-26T13:49:51">
+      <testcase name="ShouldCreateItem" classname="test.Tests2" time="0.0026206"/>
+      <testcase name="ShouldCreateItem3" classname="test.Tests2" time="0.0010000">
+         <skipped><![CDATA[specific reason]]></skipped>
+      </testcase>
+      <testcase name="ShouldCreateItem2" classname="test.Tests2" time="0.0010159">
+         <failure type=""
+                  message="Assert.Equal() Failure&#xA;                ↓ (pos 4)&#xA;  Expected: Test3&#xA;  Actual:   Test&#xA;                ↑ (pos 4)"><![CDATA[   at test.Tests2.ShouldCreateItem2() in /home/jenkins/test2/Tests2.cs:line 36
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)]]></failure>
+      </testcase>
+   </testsuite>
+</testsuites>
