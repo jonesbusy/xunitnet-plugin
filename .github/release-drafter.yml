@@ -1,0 +1,2 @@
+_extends: .github
+tag-template: xunitnet-$NEXT_MINOR_VERSION
